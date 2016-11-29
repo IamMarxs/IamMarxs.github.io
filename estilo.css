@@ -1,0 +1,70 @@
+body{
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-size: cover;
+}
+.container{
+	background-color: #4682B4;
+	max-width: 80%;
+	max-height: 100%;
+	border-style:solid;
+	border-color: white;
+	margin: 0 auto;
+}
+header{
+	background-color: #32CD32;
+	border-bottom-style: solid;
+	border-bottom-color: white;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	height: 20px;
+	padding-top: 0.5em;
+	padding-bottom: 1.5em;
+}
+ul li{
+	list-style-type: none;
+	display: inline;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #32CD32;
+	border-style: solid;
+	border-color: white;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: white;
+	cursor: pointer;
+}
+ul li a{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+#conteudo{
+	background: 650px;
+	padding-top: 20px;
+	text-align: center;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: white;
+}
+footer{
+	background-color: #32CD32;
+	border-top-style: solid;
+	border-top-color: white;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: white;
+	font-size: 15px;
+	text-align: right;
+	height: 25px;
+	padding-right: 15px;
+	padding-top: 0.1em;
+}
